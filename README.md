@@ -5,10 +5,10 @@
 [![image](https://github.com/user-attachments/assets/23ae7fc9-dcf5-4bba-9d16-f0bab70cc6dc)](https://blog.piger.tech/posts/2024/07/test/)
 ## Introduction
 
-:books:Interactive Code Note is a web-based code editor that supports multiple programming languages. You can run code snippets, save versions, and retrieve previous versions. This document provides instructions for setting up and running the project.
+:books: Interactive Code Note is a web-based code editor that supports multiple programming languages. You can run code snippets, save versions, and retrieve previous versions. This document provides instructions for setting up and running the project.
 ## Features
-- Code execution in multiple languages(Still woring on that)
-- Save code and see Version history
+- Code execution in multiple languages(Still working on that)
+- Save codes and see version history
 - Embeddable in web pages or local markdown files
 - Supports platforms like Typora, Obsidian, Notion, and more
 - Docker-based deployment for easy setup and security
@@ -42,7 +42,7 @@ docker-compose up -d
 ```
 Then your can see your Interactive code block on `http(s)//:your domain:port`  
 If u want to insert blocks on pages like the [demo](https://blog.piger.tech/posts/2024/07/test/). 
-Follow steps below:
+Follow step below:
 ### Step 5: Insert on Markdown  
 You can embed this block anywhere  
 > Typora, Obsidian, Notion, Web ...

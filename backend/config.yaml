@@ -1,13 +1,13 @@
 # Server configuration
 server:
   host: "0.0.0.0"  
-  domain: "your ip or domain here"
+  domain: "your ip or domain here" # Domain name or IP address add if you have a domain else “#”
   port: 40900
   mode: "production-no-tls"  # Can be "local", "production", or "production-no-tls"
 
 # TLS configuration (only used in production mode)
 tls:
-  cert_file: "/path/to/fullchain.pem"  # 
+  cert_file: "/path/to/fullchain.pem"  
   key_file: "/path/to/privkey.pem"
 
 # Docker configuration

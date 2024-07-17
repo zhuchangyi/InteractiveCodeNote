@@ -1,0 +1,28 @@
+# Server configuration
+server:
+  host: "0.0.0.0"  
+  domain: "your ip or domain here"
+  port: 40900
+  mode: "production-no-tls"  # Can be "local", "production", or "production-no-tls"
+
+# TLS configuration (only used in production mode)
+tls:
+  cert_file: "/path/to/fullchain.pem"  # 
+  key_file: "/path/to/privkey.pem"
+
+# Docker configuration
+docker:
+  image_name: "golang:1.22.5-alpine"
+  max_containers: 5 # Maximum number of containers to run at once
+
+# File paths
+paths:
+  code_dir: "/tmp/code"
+  persistent_code_dir: "/app/persistent_code"
+
+
+# Security save code
+security:
+  allowed_ips: # List of allowed IPs for savig code on the server
+    - "127.0.0.1"  
+    # Add more IPs here for production

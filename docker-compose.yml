@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    image: go-playground-backend
+    ports:
+      - "${SERVER_PORT:-40900}:${SERVER_PORT:-40900}"
+    volumes:
+      - ${CODE_DIR:-/tmp/code}:${CODE_DIR:-/tmp/code}
+      - ${PERSISTENT_CODE_DIR:-./persistent_code}:${PERSISTENT_CODE_DIR:-/app/persistent_code}
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${TLS_CERT_DIR:-/etc/letsencrypt}:${TLS_CERT_DIR:-/etc/letsencrypt}:ro
+    environment:
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    command: ./main
+
+volumes:
+  persistent_code:

@@ -35,7 +35,7 @@ Then your can see your Interactive code block on `http(s)//:your domain:port`
 If u want to insert blocks on pages like the [demo](https://blog.piger.tech/posts/2024/07/test/). 
 Follow steps below:
 ### Step 5: Insert on Markdown  
-Change  `path/to/your/index.html`. `yourcodeid' is the name of your code block.
+Change  `path/to/your/index.html`. `yourcodeid` is the name of your code block.
 ```html
 <iframe id="go-editor-1" src="path/to/your/index.html?noteId=yourcodeid" style="width:100%; height:500px;
 border:none;" frameborder="0"></iframe>

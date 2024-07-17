@@ -5,7 +5,7 @@
 [![image](https://github.com/user-attachments/assets/23ae7fc9-dcf5-4bba-9d16-f0bab70cc6dc)](https://blog.piger.tech/posts/2024/07/test/)
 ## Introduction
 
-Interactive Code Note is a web-based code editor that supports multiple programming languages. You can run code snippets, save versions, and retrieve previous versions. This document provides instructions for setting up and running the project.
+:books:Interactive Code Note is a web-based code editor that supports multiple programming languages. You can run code snippets, save versions, and retrieve previous versions. This document provides instructions for setting up and running the project.
 ## Features
 - Code execution in multiple languages(Still woring on that)
 - Save code and see Version history

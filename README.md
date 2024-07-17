@@ -1,9 +1,17 @@
 # Interactive Code Note  
-## [See Demos Here](https://blog.piger.tech/posts/2024/07/test/)
+👋 Hey there! Welcome to Interactive Code Note - your new coding buddy that fits right into your favorite note-taking apps and markdown editors.  
+:heartpulse: Ideal for developers, educators, students anyone who  seeking a flexible code editing and execution environment that can be integrated into various blogs and documents.
+[See Demos Here](https://blog.piger.tech/posts/2024/07/test/)
 [![image](https://github.com/user-attachments/assets/23ae7fc9-dcf5-4bba-9d16-f0bab70cc6dc)](https://blog.piger.tech/posts/2024/07/test/)
 ## Introduction
 
 Interactive Code Note is a web-based code editor that supports multiple programming languages. You can run code snippets, save versions, and retrieve previous versions. This document provides instructions for setting up and running the project.
+## Features
+- Code execution in multiple languages(Still woring on that)
+- Save code and see Version history
+- Embeddable in web pages or local markdown files
+- Supports platforms like Typora, Obsidian, Notion, and more
+- Docker-based deployment for easy setup and security
 
 ## Setup Instructions
 
